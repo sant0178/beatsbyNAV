@@ -1,0 +1,151 @@
+/***************************************************
+Add your Google Fonts
+Update ALL the named colours to create a monochromatic scheme
+Style the menus - one horizontally and one vertically
+Add the hover/active effects to your menu items
+***************************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    /* ADD the Google sans-serif font to this font stack */
+    font-family: helvetica, arial, sans-serif;
+}
+html, body{
+    background-color: #006639;
+}
+h1{
+    font-size: 6.854rem;
+    /* ADD the Google serif font to this font stack */
+    font-family: Vollkorn, Helvetica, Arial, serif;
+    padding: 1rem 2rem;
+    color: #D8EAE2;
+}
+h2{
+    font-size: 4.23rem;
+    /* ADD the Google serif font to this font stack */
+    font-family: Vollkorn, Helvetica, Arial, serif;
+    padding: 1rem 2rem;
+    color: #006639;
+}
+nav li{
+    font-size: 2.618rem;
+     font-family: Vollkorn, Helvetica, Arial, serif;
+    color:#D8EAE2;
+}
+p{
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+    font-family: Exo, Helvetica, Arial, serif;
+    color: #D8EAE2;
+}
+.wrapper{
+    max-width: 1400px; 
+    width: 80%;
+    margin: 0 auto;
+    background-color: #00B263;
+   
+}
+header{
+    border-bottom: 0.8rem solid;
+    border-bottom-color: #376651;
+    background-color: #00E57F;
+    color: #D8EAE2;
+}
+
+/*****HORIZONTAL MENU***/
+.menu-h{
+    width: 100%;
+}
+
+    .menu-h li{
+        /* style the list items to remove the bullets 
+        and line up horizontally
+        and take up 20% of the width of the ul */
+        list-style: none;
+        width: 20%;
+        float: left;
+        border: none;
+        text-align: center;
+  
+    }
+
+        .menu-h a,
+        .menu-h a:link,
+        .menu-h a:visited{
+            text-decoration: none;
+            cursor: pointer;
+            display: block;
+            color: #006639;
+            /* style the anchors to fill the entire width of the li 
+            make sure there is padding around your text */
+        }
+
+
+.menu-h a:hover{
+    font-weight: bold;
+   
+}
+        .menu-h a:active{
+             background-color: #D8EAE2;
+            color: #006639;
+        }
+/*Change fonts. colors etc. on css above
+
+/******************************************VERTICAL MENU      ********************/
+
+.menu-v{
+    width: 20%;
+    float:left;
+    border-right: 0.2rem solid;
+    border-bottom-color: #376651;
+    
+}
+
+
+    .menu-v li{
+        /* style the list items to remove the bullets 
+        and line up vertically
+        and take up 100% of the width of the ul */
+        list-style: none;
+        width: 100%;
+        padding-top: 1rem;
+        text-align: center;
+        font-size: 30px;
+        border: none;
+}
+
+
+        .menu-v a,
+        .menu-v a:link,
+        .menu-v a:visited{
+            display: block;
+            text-decoration: none;
+            cursor: pointer;
+            text-align: center;
+            color:#D8EAE2;
+            /* style the anchors to fill the entire width of the li */
+        }
+
+
+.menu-v a:hover{
+    color: #006639;
+}
+        .menu-v a:active{
+            background-color: #00E57F;
+            color: #D8EAE2;
+            
+            
+        }
+main{
+    width:80%;
+    float: right;
+}
+footer{
+    clear:both;
+}
